@@ -34,7 +34,7 @@ h5{
 h6{
   font-weight: 1000;
   font-family: 'Bahnschrift', sans-serif;
-  color: #212121;
+  color: #ffffff;
   font-size: 40px;
   text-align: center;
 }
@@ -1202,10 +1202,10 @@ ul.nostyle i {
 }
 .logo{
    display: block;
-   max-width: 90%;
-   padding-top: 5px;
-   height: 5em;
-   margin: auto;
+   max-width: 100%;
+   padding-top: 0px;
+   height: 5.5em;
+   
 }
 .actualEvent{
 	background-image: -webkit-linear-gradient(90deg, #9f0000 0%, #c81919 100%);
