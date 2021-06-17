@@ -406,6 +406,21 @@ ul.nostyle i {
   color: #fff;
   padding-top: 20px;
 }
+#cta2-construct {
+  display:flex;
+  align-items: center;
+  height: 100vh;
+  background: #212121 url(../images/cta2/bg.png) no-repeat 50% 50%;
+  background-size: cover;
+  color: #fff;
+  padding-top: 20px;
+}
+#cta2-construct h2 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 1;
+}
+
 #cta2 .btn {
   margin-top: 10px;
 }
@@ -1298,3 +1313,4 @@ ul.nostyle i {
   transition:all 300ms ease-in-out;
   transform:translate(-50%,-50%) scale(1);
 }
+
