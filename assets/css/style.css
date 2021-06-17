@@ -3569,8 +3569,8 @@ a {
 .bgimage {
 	background: url('../../images/bg.png');
 	background-size: 70%;
-	padding-top: 1px;
-	padding-bottom: 1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .txtbox{
