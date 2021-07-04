@@ -1,0 +1,6 @@
+.rotate{
+    transform: rotate(90deg);
+    color:blue;
+    display: flex;
+    justify-content: center;
+}
