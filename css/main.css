@@ -410,7 +410,7 @@ ul.nostyle i {
   display:flex;
   align-items: center;
   height: 100vh;
-  background: #212121 url(../images/cta2/bg.png) no-repeat 50% 50%;
+  background: #212121 url(../images/Template_base.png) no-repeat 50% 50%;
   background-size: cover;
   color: #fff;
   padding-top: 20px;
@@ -726,6 +726,9 @@ ul.nostyle i {
   -o-transition: none;
   transition: none;
 }
+.rotated{
+  transform: rotateZ(90deg);
+}
 #testimonial {
   background: #333333 url(../images/testimonial/bg.jpg) no-repeat 0 0;
   background-size: cover;
@@ -747,6 +750,11 @@ ul.nostyle i {
 #about {
   padding: 100px 0;
 }
+#numbers{
+  background:url(../images/work-process/bg.png);
+  display: block;
+}
+
 #work-process {
   padding: 100px 0 50px;
   background: #212121 url(../images/work-process/bg.png) no-repeat 0 0;

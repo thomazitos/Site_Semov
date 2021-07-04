@@ -94,7 +94,7 @@ hr {
 h7{
   font-weight: 500;
   font-family: 'Bahnschrift', sans-serif;
-  color: #212121;
+  color: white;
   font-size: 24px;
 }
 h8{
@@ -3553,7 +3553,7 @@ mark {
 	--cd-color-border-s: 0%;
 	--cd-color-border-l: 92%;
 	--font-primary: 'Bahnschrift', sans-serif;
-	--schedule-rows-number: 14;
+	--schedule-rows-number: 11;
 	--schedule-rows-height: 50px
 }
 
@@ -3567,15 +3567,21 @@ a {
 	color: var(--cd-color-event-3)
 }
 .bgimage {
-	background: url('../../images/bg.png');
+	display: block;
+	align-items: center;
+	background: url('../../images/Template_Base.png');
 	background-size: 70%;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
 
 .txtbox{
-	padding-top:0px;
+	display: flex;
+	justify-content: center;
+	padding-top:20px;
+	padding-bottom: 20px;
 }
+
 
 @media (min-width: 64rem){
 	.txtbox{
@@ -3792,7 +3798,7 @@ a {
 	height: 100%;
 	padding: 0.75em;
 	padding: var(--space-sm);
-	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 -3px 0 rgba(255, 255, 255, 0.2);
 	text-decoration: none;
 	transition: color 100ms;
 }
