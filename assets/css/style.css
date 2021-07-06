@@ -150,13 +150,11 @@ select {
 
 .logocontent{
 	display: block;
-    max-height: 90%;
+    max-height: 10em;
     padding-bottom: 20px;
     width: auto;
     margin: auto;
 }
-
-
 
 .btn,
 .form-control,
@@ -3570,7 +3568,7 @@ a {
 	display: block;
 	align-items: center;
 	background: url('../../images/Template_Base.png');
-	background-size: 70%;
+	background-size: 100%;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
@@ -4008,6 +4006,7 @@ a {
 
 .cd-schedule-modal__event-info {
 	position: relative;
+	background-color: white;
 	z-index: 2;
 	line-height: 1.4;
 	line-height: var(--body-line-height);
