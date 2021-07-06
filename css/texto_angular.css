@@ -1,11 +1,32 @@
-.text{
+.text-{
+    color:#64686d;
     writing-mode:vertical-lr;
-    margin-left: 1em;
-    
+
+    font-size:2em;
     
 }
+.n1{
+    width:fit-content;
+    padding-right: 5%;
+}
+.col-number{
+    width: fit-content;
+}
+.text{
+    color: white;
+    writing-mode:vertical-lr;
+    font-size:2em;
+    margin-left:0.5em ;
+}
+.row-angular-text{
+    display: flex;
+    background: url('../../images/Template_Base.png');
+}
 .number{
-    font-size:5em;
+    align-items: flex-end;
+    color: white;
+    font-weight: bold;
+    font-size:6em;
 }
 .aling{
     display: flex;
