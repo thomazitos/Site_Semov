@@ -7,31 +7,33 @@
 }
 .n1{
     width:fit-content;
-    padding-right: 5%;
+    padding-right: 1%;
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    
 }
 .col-number{
     width: fit-content;
 }
 .text{
+    transform: translateY(3em);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color: white;
     writing-mode:vertical-lr;
     font-size:2em;
-    margin-left:0.5em ;
+    padding-right: 1.5em;
 }
 .row-angular-text{
     display: flex;
+    justify-content: center;
     background: url('../../images/Template_Base.png');
 }
 .number{
     align-items: flex-end;
     color: white;
     font-weight: bold;
-    font-size:6em;
-}
-.aling{
-    display: flex;
-    align-items: center;
-    margin-top: 2em;
-    
-
+    font-size:7em;
 }
