@@ -1,6 +1,16 @@
-.rotate{
-    transform: rotate(90deg);
-    color:blue;
+.text{
+    writing-mode:vertical-lr;
+    margin-left: 1em;
+    
+    
+}
+.number{
+    font-size:5em;
+}
+.aling{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    
+
 }
