@@ -13,11 +13,25 @@
     margin-top: 2em;
     
 }
+
 .col-number{
     width: fit-content;
 }
-.text{
+.tx1{
+    transform: translateY(3.6em);
+}
+.tx2{
+    transform: translateY(4em);
+}
+.tx3{
+    transform: translateY(3.5em);
+}
+.tx4{
     transform: translateY(3em);
+}
+
+.text{
+    
     display: flex;
     justify-content: space-around;
     align-items: center;

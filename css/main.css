@@ -635,6 +635,18 @@ ul.nostyle i {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
+#portfolio .portfolio-item1 {
+  width: 24.9%;
+  float: left;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 10em;
+}
+
 #portfolio .portfolio-item .portfolio-item-inner {
   position: relative;
 }
