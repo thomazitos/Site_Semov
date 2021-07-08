@@ -18,16 +18,16 @@
     width: fit-content;
 }
 .tx1{
-    transform: translateY(3.6em);
+    transform: translateY(1em);
 }
 .tx2{
-    transform: translateY(4em);
+    transform: translateY(1.3em);
 }
 .tx3{
-    transform: translateY(3.5em);
+    transform: translateY(0.7em);
 }
 .tx4{
-    transform: translateY(3em);
+    transform: translateY(0.3em);
 }
 
 .text{
