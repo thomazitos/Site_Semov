@@ -5,6 +5,7 @@
     font-size:2em;
     
 }
+
 .n1{
     width:fit-content;
     padding-right: 1%;
@@ -26,10 +27,51 @@
     font-size:2em;
     padding-right: 1.5em;
 }
+.text1{
+    transform: translateY(1em);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    writing-mode:vertical-lr;
+    font-size:2em;
+    padding-right: 1.5em;
+}
+.text2{
+    transform: translateY(1.3em);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    writing-mode:vertical-lr;
+    font-size:2em;
+    padding-right: 1.5em;
+}
+.text3{
+    transform: translateY(0.9em);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    writing-mode:vertical-lr;
+    font-size:2em;
+    padding-right: 1.5em;
+}
+.text4{
+    transform: translateY(0.3em);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    writing-mode:vertical-lr;
+    font-size:2em;
+    padding-right: 1.5em;
+}
+
 .row-angular-text{
     display: flex;
     justify-content: center;
-    background: url('../../images/Template_Base.png');
+    background: url('../../images/fundo.png');
 }
 .number{
     align-items: flex-end;
