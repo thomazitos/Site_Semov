@@ -649,6 +649,10 @@ ul.nostyle i {
 
 #portfolio .portfolio-item .portfolio-item-inner {
   position: relative;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
   opacity: 0;
