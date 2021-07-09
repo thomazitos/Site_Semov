@@ -13,7 +13,27 @@
     margin-top: 2em;
     
 }
+.n2{
+    width:fit-content;
+    padding-right: 1%;
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    
+}
+.bola{
+    width: fit-content;
+}
+.linha1{
+    font-size: 4em;
+    display: flex;
 
+    justify-content: flex-end;
+    height: 10%;
+}
+.linha2{
+ height: 90%;
+}
 .col-number{
     width: fit-content;
 }
@@ -43,7 +63,7 @@
 .row-angular-text{
     display: flex;
     justify-content: center;
-    background: url('../../images/Template_Base.png');
+    background: url("../../images/Template_Base.png");
 }
 .number{
     align-items: flex-end;
