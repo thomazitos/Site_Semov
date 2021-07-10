@@ -116,7 +116,7 @@ hr {
   margin-bottom: 50px;
 }
 .section-header .section-title {
-  font-size: 44px;
+  font-size: 2em;
   color: #212121;
   text-transform: uppercase;
   position: relative;
@@ -153,7 +153,7 @@ hr {
   border-radius: 3px;
 }
 .btn.btn-primary {
-  text-align: left;
+  text-align: center;
   padding-left: 30px;
   background: #c81919;
   border-color: #9f0000;
@@ -398,7 +398,8 @@ ul.nostyle i {
   color: #fff;
 }
 #cta .btn {
-  margin: 10px;
+  margin: 1em 0px;
+
 }
 #cta2 {
   background: #212121 url(../images/cta2/bg.png) no-repeat 50% 50%;
