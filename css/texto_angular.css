@@ -49,50 +49,25 @@
 .tx4{
     transform: translateY(0.3em);
 }
-.text{ 
+
+.text{
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #bfbfbf;
+    color: white;
     writing-mode:vertical-lr;
     font-size:2em;
     padding-right: 1.5em;
-    @media(min-width: 300px){
-        font-size: 1em;
-    }
 }
 .row-angular-text{
     display: flex;
     justify-content: center;
+    background: url("../../images/Template_Base.png");
 }
 .number{
     align-items: flex-end;
-    color: #bfbfbf;
+    color: white;
     font-weight: bold;
     font-size:7em;
- 
-    @media screen and (max-width: 300px){
-        font-size: 1em;
-    }
-}
-.ano{
-    font-weight: bold;
-    color: #bfbfbf;
-    transform: translateX(-5.5em);
-    font-size: 5em;
-    @media (max-width: 300px){
-        transform: translateX(0);
-        font-size: 1em;
-    }
-
-}
-.slide-numeros{
-
-    background: url("../../images/Template_Base.png");
-    
-}
-.row-ano{
-    padding-top: 1em;
-    display: flex;
-    justify-content: center;
 }
