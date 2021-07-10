@@ -19,12 +19,15 @@
 }
 .tx1{
     transform: translateY(1em);
+    padding-right: 1.5em;
 }
 .tx2{
     transform: translateY(1.3em);
+    padding-right: 1.5em;
 }
 .tx3{
     transform: translateY(0.7em);
+    padding-right: 1.5em;
 }
 .tx4{
     transform: translateY(0.3em);
@@ -38,7 +41,7 @@
     color: white;
     writing-mode:vertical-lr;
     font-size:2em;
-    padding-right: 1.5em;
+    
 }
 .row-angular-text{
     display: flex;
