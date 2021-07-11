@@ -1,9 +1,7 @@
 .text-{
     color:#64686d;
     writing-mode:vertical-lr;
-
     font-size:2em;
-    
 }
 .n1{
     width:fit-content;
@@ -13,7 +11,10 @@
     margin-top: 2em;
     
 }
-
+.n2{
+    display: flex;
+    align-items: center;
+}
 .col-number{
     width: fit-content;
 }
@@ -75,4 +76,104 @@
     .alinha{
         text-align:center;
     }
+    .tema{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .estrutura{
+        display: none;
+    }
+    .estrutura1{
+        display: none;
+    }
+    .portifolio{
+        display: none;
+    }
+    .row_img_gear{
+        justify-content: center;
+    }
+    .col{
+        width: 30%;
+    }
+    .col2{
+        width: 30%;
+    }
+    #features .media.service-box:first-child {
+        margin-top:0;
+    }
+    #features{
+        padding: 50px 0;
+    }
+    #about {
+        padding: 50px 0;
+    }
+    body {
+        padding-top: 0px;
+        background: #fff;
+        font-family: Bahnschrift Light, sans-serif;
+        font-weight: 200;
+        font-size: 14px;
+        color: #64686d;
+        line-height: 26px;
+    }
+    #portfolio {
+        padding: 50px 0;  
+    }
+    .historia{
+        display: flex;
+    }
+    
 }
+
+
+@media(max-width: 768px){
+    .desktop{
+        display: none;
+    }
+    .mobile {
+        display: flex; /* ou inline, inline-block */
+    }
+    #portfolio {
+        padding: 50px 0;  
+    }
+    .logo{
+        height: auto;
+    }
+  
+    .estrutura1{
+        display: none;
+    }
+    .col2{
+        width: 0%;
+    }
+    #portfolio .portfolio-item {
+        width: 50%;
+        float: left;
+        padding: 15px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .row1{
+        display: none;
+    }
+}
+@media(max-width: 1250px){
+    .row1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile {
+        display: flex; /* ou inline, inline-block */
+    }
+
+}
+
+
+
