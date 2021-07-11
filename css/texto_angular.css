@@ -46,19 +46,13 @@
 .row-angular-text{
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-    background: url('../../images/Template_Base.png');
-=======
     background: url("../../images/Template_Base.png");
->>>>>>> d3ece2c2b5fafbcd93168c8afd89fcedf022a785
 }
 .number{
     align-items: flex-end;
     color: white;
     font-weight: bold;
     font-size:7em;
-<<<<<<< HEAD
-=======
 }
 
 .desktop {
@@ -81,5 +75,4 @@
     .alinha{
         text-align:center;
     }
->>>>>>> d3ece2c2b5fafbcd93168c8afd89fcedf022a785
 }
