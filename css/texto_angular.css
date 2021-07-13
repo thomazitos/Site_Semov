@@ -170,6 +170,7 @@
         display: none;
     }
     .mobile {
+        padding: 1em;
         display: flex; /* ou inline, inline-block */
     }
 
