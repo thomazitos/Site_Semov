@@ -67,6 +67,9 @@
 }
 
 @media(max-width: 480px) {
+    .slideshow-container{
+        display: none;
+    }
     .desktop{
         display: none;
     }
@@ -130,6 +133,9 @@
 
 
 @media(max-width: 768px){
+    .slideshow-container{
+        display: none;
+    }
     .desktop{
         display: none;
     }
@@ -164,6 +170,9 @@
     }
 }
 @media(max-width: 1250px){
+    .slideshow-container{
+        display: none;
+    }
     .row1{
         display: flex;
         flex-wrap: wrap;
