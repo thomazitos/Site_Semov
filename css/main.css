@@ -765,7 +765,7 @@ ul.nostyle i {
   margin-top: 10px;
 }
 #about {
-  padding: 100px 0;
+  padding: 10rem 0 5rem 0;
 }
 #numbers{
   background:url(../images/work-process/bg.png);
@@ -813,7 +813,7 @@ ul.nostyle i {
   margin-bottom: 50px;
 }
 #meet-team {
-  padding: 2em 0;
+  padding: 5rem 0 10rem 0;
 }
 #meet-team .team-member {
   padding: 13px;
