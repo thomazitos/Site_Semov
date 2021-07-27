@@ -44,10 +44,13 @@
     font-size:2em;
     
 }
+.capa_data_2021{
+    background:url("/images/capa_data_2021");
+}
 .row-angular-text{
     display: flex;
     justify-content: center;
-    background: url("../../images/Template_Base.png");
+    background: url(http://cam.poli.usp.br/semov/images/Template_Base.png)
 }
 .number{
     align-items: flex-end;
@@ -176,5 +179,5 @@
 
 }
 
-
+  
 
