@@ -15,6 +15,13 @@
     display: flex;
     align-items: center;
 }
+.col-number1{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+}
 .col-number{
     width: fit-content;
 }
@@ -48,9 +55,11 @@
     background:url("/images/capa_data_2021");
 }
 .row-angular-text{
+    height: auto;
+    width: auto;
     display: flex;
     justify-content: center;
-    background: url(http://cam.poli.usp.br/semov/images/Template_Base.png)
+    
 }
 .number{
     align-items: flex-end;
@@ -71,6 +80,9 @@
         display: none;
     }
     .desktop{
+        display: none;
+    }
+    #main-slider{
         display: none;
     }
     .mobile {
@@ -139,6 +151,9 @@
     .desktop{
         display: none;
     }
+    #main-slider{
+        display: none;
+    }
     .mobile {
         display: flex; /* ou inline, inline-block */
     }
@@ -169,21 +184,70 @@
         display: none;
     }
 }
-@media(max-width: 1250px){
-    .slideshow-container{
-        display: none;
+@media(max-width: 1024px) {
+
+    .gear{
+        width: 15em;
     }
     .row1{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
-    .desktop{
-        display: none;
+    .text-{
+        color:#64686d;
+        writing-mode:vertical-lr;
+        font-size:1.5em;
     }
-    .mobile {
-        padding: 1em;
-        display: flex; /* ou inline, inline-block */
+    .n1{
+        width:fit-content;
+        padding-right: 1%;
+        display: flex;
+        align-items: center;
+        margin-top: 2em;
+        
+    }
+    .n2{
+        display: flex;
+        align-items: center;
+    }
+    .col-number{
+        width: fit-content;
+    }
+    .tx1{
+        transform: translateY(1em);
+        padding-right: 1.5em;
+    }
+    .tx2{
+        transform: translateY(1.3em);
+        padding-right: 1.5em;
+    }
+    .tx3{
+        transform: translateY(0.7em);
+        padding-right: 1.5em;
+    }
+    .tx4{
+        transform: translateY(0.3em);
+    }
+    
+    .text{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        writing-mode:vertical-lr;
+        font-size:1.2em;        
+    }
+    .number{
+        align-items: flex-end;
+        color: white;
+        font-weight: bold;
+        font-size:5.0em;
+    }
+    .logo{
+        height:4em;
     }
 
 }
