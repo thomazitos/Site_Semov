@@ -313,7 +313,6 @@ ul.nostyle i {
     background-color: transparent;
   }
   #main-slider .item {
-  height: 558px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -1355,4 +1354,10 @@ ul.nostyle i {
   font-size: 4em;
   width: fit-content;
   color: #c81919;
+}
+.brand_name{
+  
+  font-size: 4em;
+  width: fit-content;
+  color: #ffffff;
 }
