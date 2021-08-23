@@ -12,10 +12,10 @@
     
 }
 .n2{
-    
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 .col-number1{
     display: flex;

@@ -76,10 +76,9 @@
 
     <section id="main-slider">
         <div class="owl-carousel">      
-
-            <div class="item" style="background: url(http://cam.poli.usp.br/semov/images/Template_Base.png); background-size: 100%;  width:100%;  height: fit-content;">
+            <div class="item"  style="background: url(http://cam.poli.usp.br/semov/images/Template_Base.png); background-size: 100%;  width:100%;  height: fit-content;">
                 <img src="images/CapaEventoF02.png"  width="100%" style="visibility: hidden;" />
-                <div class="slider-inner" >
+                <div class="slider-inner" id="event_now" >
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -87,29 +86,52 @@
                                     <section class="row-angular-text">
                                         
                                         <div class="n2">
+                                            <img src="" id="brand_img_now" width="100%"  alt="">    
                                             
-                                            <img src="" id="brand_img" width="100%"  alt="">
-                                            
-                                                
                                         </div>
                                         
                                         <div class="n1 ">
                                             <div class="col-number1" >
-                                            <span class="text_slide">
-                                                Próximo evento em
-                                            </span>
-                                            <br>
-                                            <br><br>
-                                            <span id="Countdown"></span>
-                                            <br><br>
-                                            
-                
-                                            <div class="">
-                                                <a class="btn btn-primary btn-lg btn-block botao_slide" href='https://semov.4.events/nova-inscricao.html' target="_blank"><span class="fa fa-calendar"></span>  Inscreva-se  </a>                  
-                                            </div>                                                   
+                                                <span class="text_slide">
+                                                    Acontecendo agora!
+                                                </span>
+                                                <br><br>
+                                                <div class="">
+                                                    <a class="btn btn-primary btn-lg btn-block botao_slide" href='https://painel.4.events/plenaria' target="_blank"><span class="fa fa-desktop"></span>  Assista  </a>                  
+                                                </div>                                                   
                                             </div>
+                                        </div> 
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-inner" id="event_next1" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="carousel-content">
+                                    <section class="row-angular-text">
+                                        
+                                        <div class="n2"> 
+                                            <img src="" id="brand_img_next1" width="100%"  alt="">
                                         </div>
-                                               
+                                        
+                                        <div class="n1 ">
+                                            <div class="col-number1" >
+                                                <span class="text_slide">
+                                                    Próximo evento em
+                                                </span>
+                                                <br><br><br>
+                                                <span id="Countdown1"></span>
+                                                <br><br>
+                                                <div class="">
+                                                    <a class="btn btn-primary btn-lg btn-block botao_slide" href='https://semov.4.events/nova-inscricao.html' target="_blank"><span class="fa fa-calendar"></span>  Inscreva-se  </a>                  
+                                                </div>                                                   
+                                            </div>
+                                        </div> 
                                     </section>
                                 </div>
                             </div>
@@ -118,9 +140,43 @@
                 </div>
             </div>
             
-            <div class="item" style="height: fit-content;">
-                <img src="images/CapaEventoF02.png" width="100%"  alt="">
+            <div class="item" style="background: url(http://cam.poli.usp.br/semov/images/Template_Base.png); background-size: 100%;  width:100%;  height: fit-content;">
+                <img id= "capa" src="images/CapaEventoF02.png"  width="100%" style="visibility: hidden;" />
+                <div class="slider-inner" id="event_next2" >
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="carousel-content">
+                                    <section class="row-angular-text">
+                                        
+                                        <div class="n2"> 
+                                            <img src="" id="brand_img_next2" width="100%"  alt="">
+                                        </div>
+                                        
+                                        <div class="n1 ">
+                                            <div class="col-number1" >
+                                                <span class="text_slide">
+                                                    Próximo evento em
+                                                </span>
+                                                <br><br><br>
+                                                <span id="Countdown2"></span>
+                                                <br><br>
+                                                <div class="">
+                                                    <a class="btn btn-primary btn-lg btn-block botao_slide" href='https://semov.4.events/nova-inscricao.html' target="_blank"><span class="fa fa-calendar"></span>  Inscreva-se  </a>                  
+                                                </div>                                                   
+                                            </div>
+                                        </div> 
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            
+            
+            
         </div>
             <!--
             
@@ -1175,28 +1231,50 @@
     <!--SCRIPT SLIDER-->
     <script>
         // Coloque todas as datas em ORDEM temporal
-        const events=["August 23, 2021 11:00:00","August 23, 2021 15:00:00","August 23, 2021 19:00:00","August 24, 2021 11:00:00","August 24, 2021 15:00:00","August 24, 2021 17:00:00","August 24, 2021 19:00:00","August 25, 2021 15:00:00","August 25, 2021 17:00:00","August 25, 2021 19:00:00","August 26, 2021 11:00:00","August 26, 2021 15:00:00","August 26, 2021 17:00:00","August 26, 2021 19:00:00","August 27, 2021 11:00:00","August 27, 2021 15:00:00","August 27, 2021 17:00:00","August 28, 2021 11:00:00","August 28, 2021 15:00:00"];
+        const init_events=["August 23, 2021 11:00:00","August 23, 2021 17:00:00","August 23, 2021 19:00:00","August 24, 2021 11:00:00","August 24, 2021 15:00:00","August 24, 2021 17:00:00","August 24, 2021 19:00:00","August 25, 2021 15:00:00","August 25, 2021 17:00:00","August 25, 2021 19:00:00","August 26, 2021 11:00:00","August 26, 2021 15:00:00","August 26, 2021 17:00:00","August 26, 2021 19:00:00","August 27, 2021 11:00:00","August 27, 2021 15:00:00","August 27, 2021 17:00:00","August 28, 2021 11:00:00","August 28, 2021 15:00:00"];
         const brands_img=["images/logo empresas/timpel.png","images/logo empresas/oracle.png","images/logo empresas/Stockcar.png","images/logo empresas/Harvard.png","images/logo empresas/AutoForm.png","images/logo empresas/ska.png","images/logo empresas/ABB.png","images/logo empresas/AutoForm.png","images/logo empresas/BTC.png","images/logo empresas/INPE.png","images/logo empresas/gm.png","images/logo empresas/accenture.png","images/logo empresas/ABB.png","images/logo empresas/Stanford.png","images/logo empresas/gm.png","images/logo empresas/siemens.png","images/logo empresas/BRASKEM.png","images/Logo - modificado.png","images/logo empresas/ESF.png"];
+        const end_events=["August 23, 2021 12:30:00","August 23, 2021 16:30:00","August 23, 2021 20:30:00","August 24, 2021 12:30:00","August 24, 2021 16:30:00","August 24, 2021 18:30:00","August 24, 2021 20:30:00","August 25, 2021 16:30:00","August 25, 2021 18:30:00","August 25, 2021 20:30:00","August 26, 2021 12:30:00","August 26, 2021 16:30:00","August 26, 2021 18:30:00","August 26, 2021 20:30:00","August 27, 2021 12:30:00","August 27, 2021 16:30:00","August 27, 2021 18:30:00","August 28, 2021 12:30:00","August 28, 2021 16:30:00"];
 
         // Calcula qual evento deve ser usado como parâmetro
         var i =0;
-        var event = new Date(events[i]).getTime();
+        var event = new Date(init_events[i]).getTime();
         var now = new Date().getTime();
         var distance = event - now;
+
         while(distance<0){
             i=i+1;
             var now = new Date().getTime();
-            var event = new Date(events[i]).getTime();
+            var event = new Date(init_events[i]).getTime();
             var distance = event - now;
         }
+        var last_event_init = new Date(init_events[i-1]).getTime();
+        var last_event_end = new Date(end_events[i-1]).getTime();
+        
         // Coloquea data do evento
-        var countDownDate = new Date(events[i]).getTime();
+        var countDownDate = new Date(init_events[i]).getTime();
         
         // Update the count down every 1 second
         var x = setInterval(function() {
-
+        
         // Get today's date and time
         var now = new Date().getTime();
+
+        //
+        if(last_event_init<now && last_event_end>now){
+            var image =document.getElementById('brand_img_now');
+            image.src = brands_img[i-1];
+            document.getElementById("event_next1").style.display = "none";
+            var logo = "brand_img_next2"
+            var count= "Countdown2"
+            
+        }else{
+            
+            document.getElementById("event_next2").style.display = "none";
+            document.getElementById("event_now").style.display = "none";
+            document.getElementById("capa").style.visibility = "visible";
+            var logo = "brand_img_next1"
+            var count= "Countdown1"
+        }
             
         // Find the distance between now and the count down date
         var distance = countDownDate - now;
@@ -1209,11 +1287,12 @@
          
        
         // Output the result in an element with id="demo"
-        document.getElementById("Countdown").innerHTML =  hours + "h "
+        document.getElementById(count).innerHTML =  hours + "h "
         + minutes + "m "  + seconds + "s ";
 
-        var image = document.getElementById('brand_img');
+        var image = document.getElementById(logo);
         image.src = brands_img[i];
+        
         
             
         // If the count down is over, write some text 
